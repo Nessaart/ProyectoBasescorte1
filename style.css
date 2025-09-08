@@ -1,0 +1,133 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #fafafa;
+  color: #333;
+}
+
+.header .top-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background: #fceaca;
+}
+
+/* FORMULARIO */
+.form-card {
+
+  background: #fceaca;
+  padding: 20px;
+  border-radius: 12px;
+  margin: 15px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.form-card h2 {
+  text-align: center;
+  margin-bottom: 18px;
+}
+
+.form-card label {
+  display: block;
+  font-weight: bold;
+  margin: 8px 0 4px;
+}
+
+.form-card input {
+  width: 97%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+}
+
+.btn-enviar {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background: orange;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+/* SEARCH FILTER */
+.search-filter {
+  background: #fceaca;
+  padding: 20px;
+  border-radius: 12px;
+  margin: 15px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.search-box {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.search-box input {
+  flex: 1;
+  padding: 8px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+}
+
+.search-btn {
+  padding: 8px 12px;
+  border: none;
+  background: orange;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.tags span {
+  display: inline-block;
+  background: #eee;
+  padding: 6px 12px;
+  margin: 5px;
+  border-radius: 15px;
+  font-size: 14px;
+}
+
+.btn-buscar {
+  display: block;
+  margin: 15px auto 0;
+  padding: 10px 20px;
+  background: orange;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+/* POPULARES */
+.popular {
+  padding: 20px;
+}
+
+.popular h2 {
+  margin-bottom: 20px;
+}
+
+.card {
+  background: #fff;
+  border-radius: 12px;
+  padding: 15px;
+  margin-bottom: 15px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.card img {
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+.discount {
+  color: orange;
+  font-weight: bold;
+}
